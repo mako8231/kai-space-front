@@ -10,6 +10,8 @@
     font-size: 13pt;
 }
 
+/**Site Header **/
+
 #title-header {
     padding: 10px;
     text-align: center;
@@ -42,4 +44,133 @@
 .button-admin-dashboard {
     color: var(--palette-2);
     border-color: var(--palette-2);
+}
+
+a.nav-link.home-nav {
+    color: aliceblue;
+}
+
+a.nav-link.home-nav.active {
+    text-shadow: 2px 2px 4px rgb(43, 28, 184);
+    font-size: 16pt;
+    color: aliceblue;
+}
+
+a.nav-link.forum-nav {
+    color: aliceblue;
+}
+
+a.nav-link.forum-nav.active {
+    text-shadow: 2px 2px 4px rgb(255, 219, 60);
+    font-size: 16pt;
+    color: aliceblue;
+}
+
+a.nav-link.latest-nav {
+    color: aliceblue;
+    
+}
+
+a.nav-link.latest-nav.active {
+    text-shadow: 2px 2px 4px rgb(255, 60, 229);
+    font-size: 16pt;
+    color: aliceblue;
+
+}
+
+a.nav-link.booru-nav {
+    color: aliceblue;
+
+}
+
+a.nav-link.booru-nav.active {
+    text-shadow: 2px 2px 4px rgb(60, 255, 206);
+    font-size: 16pt;
+    color: aliceblue;
+
+}
+
+.button-login {
+    border-style: dashed;
+    border-radius: 10px;
+    color: rgb(107, 223, 103);
+    border-color: rgb(107, 223, 103);
+}
+
+.button-login:hover {
+    background-color: rgb(107, 223, 103);
+    border-style: dashed;
+    border-radius: 10px;
+    color: black;
+    border-color: black;
+}
+
+.button-login:active {
+    background-color: rgb(198, 218, 163);
+    border-style: dashed;
+    border-radius: 10px;
+    color: black;
+    border-color: black;
+}
+
+.button-view-profile {
+    border-style: dashed;
+    border-radius: 10px;
+    color: rgb(241, 209, 159);
+    border-color: rgb(241, 209, 159);
+}
+
+.button-view-profile:hover {
+    background-color: rgb(241, 209, 159);
+    border-style: dashed;
+    border-radius: 10px;
+    color: black;
+    border-color: black;
+}
+
+.button-view-profile:active {
+    background-color: rgb(198, 218, 163);
+    border-style: dashed;
+    border-radius: 10px;
+    color: black;
+    border-color: black;
+}
+
+.button-admin-dashboard {
+    border-style: dashed;
+    border-radius: 10px;
+    color: rgb(206, 210, 233);
+    border-color: rgb(206, 210, 233);
+}
+
+.button-admin-dashboard:hover {
+    background-color: rgb(159, 163, 184);
+    border-style: dashed;
+    border-radius: 10px;
+    color: black;
+    border-color: black;
+}
+
+.login-icon {
+    image-rendering: pixelated;
+    width: 20px;
+    height: auto;
+    margin-bottom: -5px;
+    content: url("../assets/pictures/icon-login.png");
+}
+
+.register-icon {
+    image-rendering: pixelated;
+    width: 20px;
+    height: auto;
+    margin-bottom: -5px;
+    content: url("../assets/pictures/icon-register.png");
+}
+
+.profile-icon {
+    image-rendering: pixelated;
+    width: 20px;
+    height: auto;
+    margin-bottom: -5px;
+    content: url("../assets/pictures/icon-profile.png");
 }

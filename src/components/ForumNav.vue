@@ -15,24 +15,25 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <div class="navbar-nav container">
                             <li class="nav-item">
-                                <a style="color: aliceblue;" class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class=" nav-link home-nav" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a style="color: aliceblue;" class="nav-link" href="#">Forum</a>
+                                <a  class="nav-link forum-nav" href="#">Forum</a>
                             </li>
                             <li class="nav-item">
-                                <a style="color: aliceblue;" class="nav-link" href="#">Latest Art</a>
+                                <a  class="nav-link latest-nav" href="#">Latest Art</a>
                             </li>
                             <li class="nav-item">
-                                <a style="color: aliceblue;" class="nav-link" href="#">Imageboard</a>
+                                <a  class="nav-link booru-nav" href="#">Imageboard</a>
                             </li>
                         </div>
                     </div>
                 </div>
                 <div class="container-fluid justify-content-lg-end justify-content-sm-center justify-content-xm-start">
                      <form class="">
-                        <button class="button-login btn btn-outline-secondary me-2" type="button">Log-in</button>
-                        <button class="button-view-profile btn btn btn-outline-secondary me-2" type="button">View Profile</button>
+                        <button class="button-login btn btn-outline-secondary me-2" type="button"><i class="login-icon"></i>Log-in</button>
+                        <button class="button-login btn btn-outline-secondary me-2" type="button"><i class="register-icon"></i>Register</button>
+                        <button class="button-view-profile btn btn btn-outline-secondary me-2" type="button"><i class="profile-icon"></i>View Profile</button>
                         <!--If the authenticated user has mod/admin privileges-->
                         <button class="button-admin-dashboard btn btn btn-outline-secondary me-2" type="button">Admin Dashboard</button>
                         

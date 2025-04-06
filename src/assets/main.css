@@ -1,2 +1,45 @@
-/**@import './base.css';**/
+@import './base.css';
 
+@font-face {
+    font-family: 'Underdog Regular';
+    src: url('../assets/fonts/Underdog-Regular.ttf');
+}
+
+* {
+    font-family: 'Underdog Regular';
+    font-size: 13pt;
+}
+
+#title-header {
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    background-color: var(--palette-3);
+}
+
+#nav-header nav.navbar {
+    background-color: var(--palette-3);
+}
+
+.logo 
+{
+    display: block;
+    margin: auto;
+    image-rendering: pixelated;
+    width: auto;
+}
+
+.button-login {
+    color: var(--palette-2);
+    border-color: var(--palette-2);
+}
+
+.button-view-profile {
+    color: var(--palette-2);
+    border-color: var(--palette-2);
+}
+
+.button-admin-dashboard {
+    color: var(--palette-2);
+    border-color: var(--palette-2);
+}
